@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>WTelegramClient</id>
+    <version>4.1.1</version>
+    <authors>Wizou</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>logo.png</icon>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/wiz0u/WTelegramClient</projectUrl>
+    <description>Telegram Client API (MTProto) library written 100% in C# and .NET Standard | Latest API layer: 179
+
+Release Notes:
+- API Layer 179: poll texts with entities, new SentCodeTypes
+- Catch/Log sessionStore.Write exceptions (fix #248)
+- New method LoginWithQRCode (fix #247)</description>
+    <releaseNotes>- API Layer 179: poll texts with entities, new SentCodeTypes
+- Catch/Log sessionStore.Write exceptions (fix #248)
+- New method LoginWithQRCode (fix #247)</releaseNotes>
+    <copyright>Copyright © Olivier Marcoux 2021-2024</copyright>
+    <tags>Telegram MTProto Client Api UserBot</tags>
+    <repository type="git" url="https://github.com/wiz0u/WTelegramClient.git" commit="4422aad6bef9a77b54344f815f793f0af8604b1e" />
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="System.Collections.Immutable" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0" />
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="IndexRange" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="System.Collections.Immutable" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.5" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Json" version="6.0.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

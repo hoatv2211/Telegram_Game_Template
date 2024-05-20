@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>TLSharp.NetStandard</id>
+    <version>1.0.1</version>
+    <title>Telegram API in C#</title>
+    <authors>MRebati</authors>
+    <owners>MRebati</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/mrebati/TLSharp.NetStandard/</projectUrl>
+    <iconUrl>https://core.telegram.org/favicon.ico</iconUrl>
+    <description>Unofficial Telegram client library implemented in C#. Latest TL scheme supported.</description>
+    <copyright>Copyright 2020</copyright>
+    <tags>telegram client, API, TeleSharp, TLSharp, Telegram</tags>
+    <dependencies />
+  </metadata>
+</package>

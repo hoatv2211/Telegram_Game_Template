@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>TLSharp</id>
+    <version>0.1.0.574</version>
+    <title>Telegram client library implemented in C#</title>
+    <authors>Ilya P</authors>
+    <owners>Ilya P</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://sochix.github.io/TLSharp/</projectUrl>
+    <iconUrl>https://core.telegram.org/favicon.ico</iconUrl>
+    <description>Unofficial Telegram (http://telegram.org) client library implemented in C#. Latest TL scheme supported.
+
+Consider donation to speed up development process.
+
+Bitcoin wallet: 3K1ocweFgaHnAibJ3n6hX7RNZWFTFcJjUe
+
+It's a perfect fit for any developer who would like to send data directly to Telegram users or write own custom Telegram client.</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>telegram client, API</tags>
+    <dependencies />
+  </metadata>
+</package>

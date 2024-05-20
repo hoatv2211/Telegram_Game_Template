@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>WTelegramBot</id>
+    <version>7.2.0</version>
+    <authors>Wizou</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>logo.png</icon>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/wiz0u/WTelegramBot</projectUrl>
+    <description>Telegram Bot API (local server) library providing more extended features
+
+Release Notes:
+First release</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright © Olivier Marcoux 2024</copyright>
+    <tags>Telegram Bot Api Client</tags>
+    <repository type="git" url="https://github.com/wiz0u/WTelegramBot.git" commit="dda7511e93b981c3b1adcf3ea1655cb510c6bc54" />
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="WTelegramClient" version="4.1.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0">
+        <dependency id="WTelegramClient" version="4.1.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.ComponentModel.Annotations" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="WTelegramClient" version="4.1.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>IndexRange</id>
+    <version>1.0.2</version>
+    <title>System.Index and System.Range</title>
+    <authors>Bradley Grainger</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>icon.png</icon>
+    <readme>Package.md</readme>
+    <projectUrl>https://github.com/bgrainger/IndexRange</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/bgrainger/IndexRange/master/icon.png</iconUrl>
+    <description>Implementations of System.Index and System.Range for netstandard2.0 and .NET Framework.</description>
+    <releaseNotes>* Mark assembly as CLS compliant.</releaseNotes>
+    <copyright>Copyright 2019–2022 Bradley Grainger</copyright>
+    <tags>Index System.Index Range System.Range C#8</tags>
+    <repository type="git" url="https://github.com/bgrainger/IndexRange.git" commit="1f75757023c9aead64db5391d472aaaac9db0a17" />
+    <dependencies>
+      <group targetFramework=".NETFramework3.5">
+        <dependency id="ValueTupleBridge" version="0.1.5" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="System.ValueTuple" version="4.5.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.7" />
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework=".NETStandard2.1" />
+    </dependencies>
+  </metadata>
+</package>
